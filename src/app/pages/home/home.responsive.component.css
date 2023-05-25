@@ -1,0 +1,7 @@
+@media screen and (max-width: 414px){
+  .header_main-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+  }
+}

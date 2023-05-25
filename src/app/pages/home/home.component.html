@@ -1,0 +1,30 @@
+<header>
+  <div class="container__navbar">
+    <ul>
+      <li>
+        <span (click)="showHomeSection()">
+          Início
+        </span>
+      </li>
+      <li>
+        <span (click)="showAboutSection()">
+          Sobre a equipe
+        </span>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<div class="container__header" *ngIf="isHomeSelected">
+  <img [src]="logo" alt="" class="header_image">
+
+  <h1 class="header_main-title">
+    {{ title }}
+  </h1>
+</div>
+
+<div class="container__header" *ngIf="isAboutSelected">
+  <app-about></app-about>
+</div>
+
+
