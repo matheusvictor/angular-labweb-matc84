@@ -1,4 +1,4 @@
-header > .container__navbar {
+.container__navbar {
   display: flex;
   padding: 2rem;
   color: white;
