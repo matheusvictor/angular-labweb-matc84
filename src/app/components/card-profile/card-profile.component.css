@@ -1,0 +1,39 @@
+.container__card {
+    border: 1px solid red;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 0.8rem;
+}
+
+.card__photo {
+    border: 1px solid red;
+    margin-top: 1rem;
+    align-content: center;
+    background-color: transparent;
+}
+
+.card__photo > img {
+    border-radius: 8rem;
+}
+
+.card__name {
+    border: 1px solid red;
+    background-color: transparent;
+}
+
+.card__name > h3 {
+    background-color: transparent;
+}
+
+.card__bio {
+    margin: 1rem;
+    display: inline-block;
+    padding: 0.6rem;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+}
