@@ -1,3 +1,8 @@
-<div>
-  <p style="color: aliceblue">about works!</p>
+<div 
+    style="display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid green;
+    align-items: center; align-content: center; justify-content: center;">
+    <app-card-profile *ngFor="let item of [].constructor(4)"></app-card-profile>
 </div>
