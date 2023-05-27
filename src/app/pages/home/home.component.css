@@ -24,6 +24,12 @@
   background-color: transparent;
 }
 
+.container__navbar > ul > li > span > a{
+  color: aliceblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .container__navbar > ul > li > span:hover {
   cursor: pointer;
   font-weight: bold;
