@@ -1,0 +1,9 @@
+.container__about {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 1px solid green;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
