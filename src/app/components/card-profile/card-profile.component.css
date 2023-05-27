@@ -14,6 +14,7 @@
   padding: 1rem;
   display: flex;
   flex-direction: row;
+  border-radius: 0.8rem;
   align-content: center;
   justify-content: center;
   background-color: transparent;
@@ -28,7 +29,6 @@
 }
 
 .card__name {
-  border: 1px solid red;
   background-color: transparent;
 }
 
@@ -38,9 +38,10 @@
 }
 
 .card__bio {
-  border: 1px solid purple;
   display: flex;
+  margin: 0.6rem;
   flex-direction: row;
+  align-items: center;
   justify-content: center;
   background-color: transparent;
 }
@@ -51,7 +52,5 @@
 }
 
 .card__bio > span > img {
-  margin: 0.6rem;
-  border: 1px solid red;
   background-color: transparent;
 }

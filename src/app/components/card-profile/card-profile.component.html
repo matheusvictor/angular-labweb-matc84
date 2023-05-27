@@ -1,21 +1,24 @@
 <div class="container__card">
-    <div class="card__photo">
-        <img 
-            src= "{{ photo }}"
-            alt="{{ photo }}">
-    </div>
+
+  <div class="card__photo">
+    <img
+      src= "{{ photo }}"
+      alt="{{ photo }}">
+  </div>
 
     <div class="card__name">
-        <h3> {{ name }}</h3>
+      <h3> {{ name }}</h3>
     </div>
 
     <div class="card__bio">
-        <span>
-            <img 
-                alt="MV-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-            <img 
-            alt="MV-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"> 
-            </span>
+      <span>
+        <img
+          alt="Ícone para rede social do LinkedIn" height="30" width="40" src="{{ socialIcons.linkedin  }}">
+      </span>
+      <span>
+        <img
+          alt="Ícone para rede social do Github" height="30" width="40" src="{{ socialIcons.github }}">
+      </span>
     </div>
 
 </div>

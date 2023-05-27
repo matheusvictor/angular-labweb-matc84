@@ -7,6 +7,11 @@ import { Component, Input } from '@angular/core';
 })
 export class CardProfileComponent {
 
-  @Input() photo: string = 'https://media.licdn.com/dms/image/D4D03AQEja5FyHNsHow/profile-displayphoto-shrink_200_200/0/1683639970790?e=1690416000&v=beta&t=lLMn5Fwc9zgVVkTusiZb3JBPysTKHlcEhVKoEFGrow0';
-  @Input() name: string = 'Lorem ipsum';
+  @Input() photo: string = 'https://img.freepik.com/free-icon/user_318-804790.jpg';
+  @Input() name: string = 'Lorem Ipsum';
+  @Input() socialIcon: string = '';
+  socialIcons = {
+    "linkedin": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
+    "github": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+  }
 }
