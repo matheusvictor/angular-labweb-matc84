@@ -13,6 +13,8 @@ describe('CardProfileComponent', () => {
     fixture = TestBed.createComponent(CardProfileComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
+    
+    
   });
 
   it('should create', () => {
