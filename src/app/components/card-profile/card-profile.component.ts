@@ -7,9 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CardProfileComponent {
 
-  @Input() photo: string = 'https://img.freepik.com/free-icon/user_318-804790.jpg';
-  @Input() name: string = 'Lorem Ipsum';
+  @Input() photo: string = '';
+  @Input() name: string = '';
   @Input() socialIcon: string = '';
+
   socialIcons = {
     "linkedin": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
     "github": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
