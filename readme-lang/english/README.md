@@ -2,7 +2,7 @@
 
 <p align="center">
     <span>English</span>
-    <a href="readme-lang/portuguese#AngularLabwebMatc84">Portuguese</a> 
+    <a href="https://github.com/rafaelbsfarias/angular-labweb-matc84/tree/develop#AngularLabwebMatc84">Portuguese</a> 
 </p>
 
 
