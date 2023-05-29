@@ -1,5 +1,33 @@
 <div class="container__about">
-    <app-card-profile
-      *ngFor="let item of [].constructor(4)">
+    <app-card-profile 
+      [photo]="'https://avatars.githubusercontent.com/u/118102469?s=400&u=a9a2676736a8bd53268ad2ed7f3636a67e8bb902&v=4'"
+      [name]="'Emiliano'"
+      [socialIcon]="'linkedin'"
+      [socialIcon]="'github'" >
     </app-card-profile>
+
+    <app-card-profile 
+      [photo]="'https://example.com/profile1.jpg'"
+      [name]="'Jack'"
+      [socialIcon]="'linkedin'">
+    </app-card-profile>
+
+    <app-card-profile 
+    [photo]="'https://example.com/profile1.jpg'"
+    [name]="'Rafa'"
+    [socialIcon]="'linkedin'"></app-card-profile>
+    <app-card-profile 
+    [photo]="'https://example.com/profile1.jpg'"
+    [name]="'David'"
+    [socialIcon]="'linkedin'"></app-card-profile>
+    <app-card-profile 
+    [photo]="'https://example.com/profile1.jpg'"
+    [name]="'Lion'"
+    [socialIcon]="'linkedin'"></app-card-profile>
+    
+    <!--*ngFor="let item of [].constructor(5)">-->
+    
+      
+    
+    
 </div>
