@@ -1,0 +1,8 @@
+<div class="container__about">
+    <app-card-profile
+      *ngFor="let member of members; let i = index"
+      [name]="members[i].name"
+      [photo]="members[i].photo"
+    >
+    </app-card-profile>
+</div>
