@@ -1,5 +1,33 @@
 <div class="container__about">
     <app-card-profile
-      *ngFor="let item of [].constructor(4)">
+      [photo]="'https://img.freepik.com/free-icon/user_318-804790.jpg'"
+      [name]="'John Doe'"
+      [socialIcon]="'linkedin'"
+    ></app-card-profile>
+    <!-- *ngFor="let item of [].constructor(5)"> -->
+    <app-card-profile
+      [photo]="'https://img.freepik.com/free-icon/user_318-804790.jpg'"
+      [name]="'Rafael'"
+      [socialIcon]="'linkedin'"
+     >
+     </app-card-profile>
+     <app-card-profile
+     [photo]="'https://img.freepik.com/free-icon/user_318-804790.jpg'"
+     [name]="'Emiliano'"
+     [socialIcon]="'linkedin'"
+    >
     </app-card-profile>
+    <app-card-profile
+    [photo]="'https://img.freepik.com/free-icon/user_318-804790.jpg'"
+    [name]="'Laion'"
+    [socialIcon]="'linkedin'"
+   >
+   </app-card-profile>
+   <app-card-profile
+   [photo]="'https://img.freepik.com/free-icon/user_318-804790.jpg'"
+   [name]="'Davi'"
+   [socialIcon]="''"
+  >
+  </app-card-profile>
 </div>
+

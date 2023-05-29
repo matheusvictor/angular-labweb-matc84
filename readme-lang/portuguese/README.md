@@ -1,11 +1,8 @@
 # AngularLabwebMatc84
-
 <p align="center">
-  <span>Portuguese</span> |
-    <a href="readme-lang/english">English</a> |
+    <span>Português</span>
+    <a href="readme-lang">English</a> 
 </p>
-
-
 
 Em desenvolvimento
 
