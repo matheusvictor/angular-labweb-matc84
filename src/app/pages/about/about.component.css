@@ -1,7 +1,7 @@
 .container__about {
   display: grid;
   list-style: none;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   /*Tirei a sua borda jack*/
   /*border: 1px solid rgb(255, 255, 255)*/;
   align-items: center;
