@@ -10,6 +10,8 @@ export class CardProfileComponent {
   @Input() photo: string = '';
   @Input() name: string = '';
   @Input() socialIcon: string = '';
+  @Input() github: string = '';
+  @Input() linkedin: string = '';
 
   socialIcons = {
     "linkedin": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg",
