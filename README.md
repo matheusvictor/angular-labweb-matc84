@@ -2,64 +2,68 @@
 
 Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) v. 16.0.2. Este é um guia passo a passo para ajudar você a instalar o Node.js e o Angular v16 em seu sistema e executar o projeto Angular localmente. 
 
-------
+-----
 
-## Instalação do Node.js e Angular v16.0.2 & Execução do prjeto
+## Instalação do Node.js e Angular v16.0.2 & Execução do projeto
 
 <details>
   <summary>Instalação do Node.js</summary>
 
-  O Node.js é um ambiente de tempo de execução JavaScript que permite executar código JavaScript no lado do servidor. O Angular é construído sobre o Node.js, portanto, é necessário instalá-lo antes de prosseguir com a instalação do Angular.
+O Node.js é um ambiente de tempo de execução JavaScript que permite executar código JavaScript no lado do servidor. O Angular é construído sobre o Node.js, portanto, é necessário instalá-lo antes de prosseguir com a instalação do Angular.
 
-  Siga as etapas abaixo para instalar o Node.js:
+Siga as etapas abaixo para instalar o Node.js:
 
-  1. Acesse o site oficial do Node.js em [nodejs.org](https://nodejs.org/).
+1. Acesse o site oficial do Node.js em [nodejs.org](https://nodejs.org/).
 
-  2. Na página inicial do Node.js, você encontrará o botão de download. Clique nele para baixar o instalador adequado para o seu sistema operacional.
+2. Na página inicial do Node.js, você encontrará o botão de download. Clique nele para baixar o instalador adequado para o seu sistema operacional.
 
-  3. Após o download ser concluído, execute o instalador.
+3. Após o download ser concluído, execute o instalador.
 
-  4. Siga as instruções do assistente de instalação. Você pode aceitar as configurações padrão ou personalizá-las conforme necessário.
+4. Siga as instruções do assistente de instalação. Você pode aceitar as configurações padrão ou personalizá-las conforme necessário.
 
-  5. Após a instalação, abra o terminal ou prompt de comando e digite o seguinte comando para verificar se o Node.js foi instalado corretamente:
+5. Após a instalação, abra o terminal ou prompt de comando e digite o seguinte comando para verificar se o Node.js foi instalado corretamente:
 
-  ```
-  node -v
-  ```
+```
+node -v
+```
 
-  Isso exibirá a versão instalada do Node.js.
+Isso exibirá a versão instalada do Node.js.
 
-  Agora que você tem o Node.js instalado, podemos prosseguir com a instalação do Angular v16.
+Agora que você tem o Node.js instalado, podemos prosseguir com a instalação do Angular v16.
+
 </details>
 
 <details>
   <summary>Instalação do Angular v16.0.2</summary>
-  O Angular é uma estrutura de desenvolvimento de aplicativos da web que permite criar aplicativos ricos e interativos. O Angular CLI (Interface de Linha de Comando) facilita a criação e a execução de projetos Angular.
 
-  Siga as etapas abaixo para instalar o Angular v16:
+O Angular é uma estrutura de desenvolvimento de aplicativos da web que permite criar aplicativos ricos e interativos. O Angular CLI (Interface de Linha de Comando) facilita a criação e a execução de projetos Angular.
 
-  1. Abra o terminal ou prompt de comando.
+Siga as etapas abaixo para instalar o Angular v16:
 
-  2. Execute o seguinte comando para instalar o Angular CLI globalmente:
+1. Abra o terminal ou prompt de comando.
 
-  ```
-  npm install -g @angular/cli@16.0.2
-  ```
+2. Execute o seguinte comando para instalar o Angular CLI globalmente:
 
-  Isso instalará a versão 16 do Angular CLI em seu sistema.
+```
+npm install -g @angular/cli@16.0.2
+```
 
-  3. Após a conclusão da instalação, você pode verificar se o Angular CLI foi instalado corretamente executando o seguinte comando:
+Isso instalará a versão 16 do Angular CLI em seu sistema.
 
-  ```
-  ng version
-  ```
+3. Após a conclusão da instalação, você pode verificar se o Angular CLI foi instalado corretamente executando o seguinte comando:
 
-  Isso exibirá a versão instalada do Angular CLI.
+```
+ng version
+```
 
-  Agora que você tem o Node.js e o Angular v16 instalados, podemos prosseguir para a execução de um projeto Angular localmente.
+Isso exibirá a versão instalada do Angular CLI.
+
+Agora que você tem o Node.js e o Angular v16 instalados, podemos prosseguir para a execução de um projeto Angular localmente.
+
 </details>
 
-## Executando um projeto Angular localmente
+<details>
+  <summary>Executando um projeto Angular localmente</summary>
 
 Siga as etapas abaixo para executar um projeto Angular localmente:
 
@@ -67,84 +71,96 @@ Siga as etapas abaixo para executar um projeto Angular localmente:
 
 2. Navegue até o diretório do projeto Angular usando o comando `cd`. Por exemplo:
 
-   ```
-   cd caminho/para/o/projeto
-   ```
+```
+cd caminho/para/o/projeto
+```
 
 3. No diretório do projeto, instale as dependências executando o seguinte comando:
 
-   ```
-   npm install
-   ```
+```
+npm install
+```
 
-   Isso instalará todas as dependências necessárias definidas no arquivo `package.json` do projeto.
+Isso instalará todas as dependências necessárias definidas no arquivo `package.json` do projeto.
 
 4. Após a conclusão da instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
 
-   ```
-   ng serve
-   ```
+```
+ng serve
+```
 
-   Isso compilará o projeto e iniciará o servidor de desenvolvimento.
+Isso compilará o projeto e iniciará o servidor de desenvolvimento.
 
 5. Abra o navegador e visite o seguinte URL:
 
-   ```
-   http://localhost:4200
-   ```
+```
+http://localhost:4200
+```
 
-   O projeto Angular será carregado
+O projeto Angular será carregado.
+
+</deitals>
+
+</details>
+
+-----
+
 ## Contribuindo com o projeto
 
-Agradecemos seu interesse em contribuir com nosso projeto! Existem várias maneiras pelas quais você pode contribuir, desde a assinatura de issues até o envio de pull requests. Veja abaixo como você pode começar:
+Agradecemos seu interesse em contribuir com nosso projeto! Existem várias maneiras pelas quais você pode contribuir, desde a assinatura de issues até o envio de pull requests. Veja abaixo como você pode começar.
 
-### Assinando uma Issue
+<details>
+  <summary>Assinando uma Issue</summary>
+  
+  1. Navegue até a seção de issues do nosso projeto no repositório no GitHub.
 
-1. Navegue até a seção de issues do nosso projeto no repositório no GitHub.
+  2. Analise as issues abertas e encontre uma que você gostaria de trabalhar.
 
-2. Analise as issues abertas e encontre uma que você gostaria de trabalhar.
+  3. Comente na issue informando que você gostaria de assumi-la.
+</details>
 
-3. Comente na issue informando que você gostaria de assumi-la.
+<details>
+  <summary>Realizando um Fork e enviando um Pull Request</summary>
+ 
+  Se você deseja contribuir com uma nova funcionalidade ou corrigir um bug existente, recomendamos seguir o fluxo de trabalho a seguir:
 
-### Realizando um Fork e enviando um Pull Request
+  1. Faça um Fork do nosso repositório clicando no botão "Fork" na página do repositório no GitHub. Isso criará uma cópia do repositório em sua conta pessoal.
 
-Se você deseja contribuir com uma nova funcionalidade ou corrigir um bug existente, recomendamos seguir o fluxo de trabalho a seguir:
+  2. Clone o repositório forkado para o seu ambiente de desenvolvimento local:
 
-1. Faça um Fork do nosso repositório clicando no botão "Fork" na página do repositório no GitHub. Isso criará uma cópia do repositório em sua conta pessoal.
+  ```
+  git clone https://github.com/SEU_USUARIO/SEU_FORK.git
+  ```
 
-2. Clone o repositório forkado para o seu ambiente de desenvolvimento local:
+  3. Crie uma nova branch para trabalhar na sua contribuição:
 
-   ```
-   git clone https://github.com/SEU_USUARIO/SEU_FORK.git
-   ```
+  ```
+  git checkout -b nome-da-sua-branch
+  ```
 
-3. Crie uma nova branch para trabalhar na sua contribuição:
+  4. Realize as alterações necessárias no código, adicionando novas funcionalidades ou corrigindo bugs.
 
-   ```
-   git checkout -b nome-da-sua-branch
-   ```
+  5. Após concluir suas alterações, faça commit das mudanças:
 
-4. Realize as alterações necessárias no código, adicionando novas funcionalidades ou corrigindo bugs.
+  ```
+  git add .
+  git commit -m "Descrição das alterações realizadas"
+  ```
 
-5. Após concluir suas alterações, faça commit das mudanças:
+  6. Faça o push das suas alterações para o repositório forkado:
 
-   ```
-   git add .
-   git commit -m "Descrição das alterações realizadas"
-   ```
+  ```
+  git push origin nome-da-sua-branch
+  ```
 
-6. Faça o push das suas alterações para o repositório forkado:
+  7. Navegue até o repositório forkado no GitHub e clique no botão "New Pull Request" (Novo Pull Request).
 
-   ```
-   git push origin nome-da-sua-branch
-   ```
+  8. Preencha o formulário do Pull Request, fornecendo informações detalhadas sobre suas alterações.
 
-7. Navegue até o repositório forkado no GitHub e clique no botão "New Pull Request" (Novo Pull Request).
+  9. Aguarde o feedback e discussões sobre o seu Pull Request. Se necessário, faça as alterações solicitadas.
 
-8. Preencha o formulário do Pull Request, fornecendo informações detalhadas sobre suas alterações.
+  10. Uma vez que seu Pull Request seja aprovado, ele será mesclado (merged) ao repositório principal e suas alterações farão parte do projeto.
 
-9. Aguarde o feedback e discussões sobre o seu Pull Request. Se necessário, faça as alterações solicitadas.
+  Lembre-se de manter seu fork atualizado com as últimas alterações do repositório principal, realizando sincronizações regulares antes de criar um novo Pull Request. Isso evita conflitos e ajuda a garantir que suas contribuições sejam baseadas na versão mais recente do projeto.
 
-10. Uma vez que seu Pull Request seja aprovado, ele será mesclado (merged) ao repositório principal e suas alterações farão parte do projeto.
-
-Lembre-se de manter seu fork atualizado com as últimas alterações do repositório principal, realizando sincronizações regulares antes de criar um novo Pull Request. Isso evita conflitos e ajuda a garantir que suas contribuições sejam baseadas na versão mais recente do projeto.
+</details>

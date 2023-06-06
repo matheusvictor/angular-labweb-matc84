@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  title: string = 'Lorem Ipsum';
+  title: string = 'Lab Web';
+  subtile: string = '2023.1';
   logo: string = 'https://octodex.github.com//images/adventure-cat.png';
   isHomeSelected: boolean = true;
   isAboutSelected: boolean = false;
