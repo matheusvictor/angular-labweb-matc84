@@ -28,10 +28,6 @@
   background-color: transparent;
 }
 
-.card__name {
-  background-color: transparent;
-}
-
 .card__name > h3 {
   text-align: center;
   background-color: transparent;
@@ -51,6 +47,6 @@
   background-color: transparent;
 }
 
-.card__bio > span > img {
+.card__bio > span > a, .card__bio > span > a > img, .card__name {
   background-color: transparent;
 }
